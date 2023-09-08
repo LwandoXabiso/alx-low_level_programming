@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
- * main - Prog Entry point
- * Retrun: Always return 0 when successful
+ * main - Program Entry point
+ * Return: Always return 0 when successful
  */
 
 int main(void)

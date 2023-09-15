@@ -2,7 +2,7 @@
 
 /**
  * print_line -> printing line
- * @a: integer params
+ * @n: integer params
  */
 
 void print_line(int n)

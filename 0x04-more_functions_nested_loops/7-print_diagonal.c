@@ -19,14 +19,17 @@ void print_diagonal(int n)
 			end = count;
 			while (start <= end)
 			{
-				_putchar('\\');
-				_putchar('\n');
+				if (start == end)
+				{
+					_putchar('\\');
+					_putchar('\n');
+				}
+				else
+					_putchar(' ');
+				start++;
 			}
-			else
-				_putchar(' ');
-			start++;
+			start = 0;
+			cout++;
 		}
-		start = 0;
-		count++;
 	}
 }

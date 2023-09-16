@@ -12,10 +12,10 @@ void more_numbers(void)
 	{
 		while (x <= y)
 		{
-			_putchar(x > 9 ? (x / 10) + '0': start + '0');
+			_putchar(x > 9 ? (x / 10) + '0' : x + '0');
 
 			if (x > 9)
-				_putchar((start % 10) + '0');
+				_putchar((x % 10) + '0');
 			x++;
 		}
 		x = 0;

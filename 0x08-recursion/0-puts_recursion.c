@@ -1,13 +1,12 @@
 #include "main.h"
 
 /**
- *_putc_recursion -> this is a function to print string recursivly
+ *_puts_recursion -> this is a function to print string recursivly
  *@s: string pointer
  */
 
 void _puts_recursion(char *s)
 {
-	s = "lpa\0";
 
 	if (*s == '\0')
 	{

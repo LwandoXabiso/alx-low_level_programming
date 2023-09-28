@@ -5,7 +5,7 @@
  * @str: a param to _puts function
  */
 
-void _putS(char *str)
+void _puts(char *str)
 {
 	for (; *str != '\0'; str++)
 	{

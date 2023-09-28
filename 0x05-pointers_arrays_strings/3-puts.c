@@ -1,6 +1,6 @@
 #include "main.h"
 
-_putchar(char);
+_putchar(int);
 /**
  * _puts -> this a function that puts
  * @str: a param to _puts function

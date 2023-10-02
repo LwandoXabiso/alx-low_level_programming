@@ -17,7 +17,7 @@ char *argstostr(int ac, char **av)
 	if (ac == 0 || av == NULL)
 		return (NULL);
 
-	while ( i < ac)
+	while (i < ac)
 	{
 		while (av[i][j])
 		{
@@ -25,7 +25,7 @@ char *argstostr(int ac, char **av)
 			j++;
 		}
 
-		i = 0;
+		j = 0;
 		i++;
 	}
 
@@ -34,7 +34,7 @@ char *argstostr(int ac, char **av)
 	i = 0;
 	while (av[i])
 	{
-		while (av[i] [j])
+		while (av[i][j])
 		{
 			s[k] = av[i][j];
 			k++;

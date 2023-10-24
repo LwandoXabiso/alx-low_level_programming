@@ -7,7 +7,7 @@
  * Return: The number of Nodes in the list_t list
  */
 
-size_t printint(const listint_t *h)
+size_t print_listint(const listint_t *h)
 {
 	size_t element;
 	element = 0;
